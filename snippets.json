@@ -1,0 +1,36 @@
+{
+    "Jaspr Stateless Component": {
+        "prefix": "jstateless",
+        "body": [
+            "import 'package:jaspr/jaspr.dart';",
+            "",
+            "class $1 extends StatelessComponent {",
+            "  @override",
+            "  Iterable<Component> build(BuildContext context) sync* {",
+            "    yield $2;",
+            "  }",
+            "}",
+            ""
+        ],
+        "description": "Creates a Jaspr stateless component"
+    },
+    "Jaspr Stateful Component": {
+        "prefix": "jstateful",
+        "body": [
+            "import 'package:jaspr/jaspr.dart';",
+            "",
+            "class $1 extends StatefulComponent {",
+            "  $1State createState() => $1State();",
+            "}",
+            "",
+            "class $1State extends State<$1> {",
+            "  @override",
+            "  Iterable<Component> build(BuildContext context) sync* {",
+            "    yield $2;",
+            "  }",
+            "}",
+            ""
+        ],
+        "description": "Creates a Jaspr stateful component"
+    }
+}
