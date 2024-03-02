@@ -1,6 +1,6 @@
 {
     "Jaspr Stateless Component": {
-        "prefix": "jstateless",
+        "prefix": "jstless",
         "body": [
             "import 'package:jaspr/jaspr.dart';",
             "",
@@ -15,7 +15,7 @@
         "description": "Creates a Jaspr stateless component"
     },
     "Jaspr Stateful Component": {
-        "prefix": "jstateful",
+        "prefix": "jstful",
         "body": [
             "import 'package:jaspr/jaspr.dart';",
             "",
