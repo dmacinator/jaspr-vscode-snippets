@@ -7,22 +7,22 @@
 
 Adding Jaspr snippets to VSCode is straightforward:
 
-1. Open your command palette with `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux).
+1. Open your command palette with `Cmd+Shift+P`.
 2. Type "user snippets" and select `Configure User Snippets`.
 3. Choose `dart.json` from the list of available snippet files.
 4. Paste the provided JSON code or add them along with other configurations into your `dart.json` file, and save it.
 
 ## Usage
 
-- **jstateless**: Creates a basic structure for a Jaspr Stateless Component.
-- **jstateful**: Creates a basic structure for a Jaspr Stateful Component.
+- **jstless**: Creates a basic structure for a Jaspr Stateless Component.
+- **jstful**: Creates a basic structure for a Jaspr Stateful Component.
 
 Below is the JSON code for the Jaspr snippets. Copy and paste this into your `dart.json` file under the VSCode user snippets directory.
 
 ```json
 {
     "Jaspr Stateless Component": {
-        "prefix": "jstateless",
+        "prefix": "jstless",
         "body": [
             "import 'package:jaspr/jaspr.dart';",
             "",
@@ -37,7 +37,7 @@ Below is the JSON code for the Jaspr snippets. Copy and paste this into your `da
         "description": "Creates a Jaspr stateless component"
     },
     "Jaspr Stateful Component": {
-        "prefix": "jstateful",
+        "prefix": "jstful",
         "body": [
             "import 'package:jaspr/jaspr.dart';",
             "",
