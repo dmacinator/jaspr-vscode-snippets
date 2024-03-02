@@ -24,8 +24,6 @@ Below is the JSON code for the Jaspr snippets. Copy and paste this into your `da
     "Jaspr Stateless Component": {
         "prefix": "jstless",
         "body": [
-            "import 'package:jaspr/jaspr.dart';",
-            "",
             "class $1 extends StatelessComponent {",
             "  @override",
             "  Iterable<Component> build(BuildContext context) sync* {",
@@ -39,8 +37,6 @@ Below is the JSON code for the Jaspr snippets. Copy and paste this into your `da
     "Jaspr Stateful Component": {
         "prefix": "jstful",
         "body": [
-            "import 'package:jaspr/jaspr.dart';",
-            "",
             "class $1 extends StatefulComponent {",
             "  $1State createState() => $1State();",
             "}",
